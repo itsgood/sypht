@@ -62,13 +62,6 @@ class Upload extends Component {
     }
 
     sendRequest(file, cb) {
-        let res = {
-            "file": file,
-            "fileId": "30d3e543-47c8-42e6-a6f6-40c50d199395",
-            "uploadedAt": "2018-05-15T04:23:14.027Z",
-            "status": "RECEIVED"
-        };
-    
         const req = new XMLHttpRequest();
 
         req.upload.addEventListener("error", event => {

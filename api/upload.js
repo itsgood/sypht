@@ -17,7 +17,7 @@ module.exports = function upload(req, res) {
             [
                 sypht.authenticate,
                 async.apply(sypht.upload, uploadedFile),
-                sypht.getResultFinal
+                //sypht.getResultFinal
             ],
             (err, result) => {
                 if (err) {
@@ -29,6 +29,6 @@ module.exports = function upload(req, res) {
             }
         );
     })
-    
+
     form.parse(req);
 }
