@@ -1,4 +1,4 @@
-## Starting Application
+## Mandatory Problem
 
 ### `Frontend`
 
@@ -11,4 +11,11 @@ $ yarn start
 ```
 $ cd api
 $ node server.js
+```
+
+## Bonus Problem #1 - Date Calculator
+
+```
+$ cd src/
+$ node date-calculator.js
 ```

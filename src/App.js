@@ -5,7 +5,6 @@ import async from 'async';
 import request from 'request';
 import Upload from './components/Upload';
 import './App.css'
-import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 
 class App extends Component {
     constructor(props) {
